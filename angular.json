@@ -91,6 +91,14 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@netlify-builder/deploy:deploy",
+          "options": {
+            "outputPath": "dist/angular-tour-of-heroes",
+            "netlifyToken": "nK8RU2wh2FTAk-xn9BmZjAVnn2v4qlT6JJx22SMlZoE",
+            "siteId": "5d2ae84f-6b05-4c2f-8c2f-ea63ebc4b641"
+          }
         }
       }
     }
